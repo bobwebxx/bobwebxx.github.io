@@ -4,10 +4,12 @@ title:  "Project: Get rid of Google"
 tags: project-google
 ---
 
-# Project: Get rid of Google
+# How to get rid of Google
 
 Create date: 2024-12-23
 Last update: 2024-12-23
+
+Ultimate goal: return to free tier.
 
 --
 
@@ -21,7 +23,7 @@ Goal: isolate "Drive" formated files and necessary shares.
 
 **storages**
 
-* separate "storages" frpm docs/spreadsheets/etc
+* separate "storages" from docs/spreadsheets/etc
 * download (organise in own system)
 * delete
 
@@ -36,6 +38,17 @@ Goal: isolate "Drive" formated files and necessary shares.
 * figure out what has to stay
 * _[to do as problem space substantiates]_
 
+
+#### Google Photos
+
+Goal state:
+
+* shared stay shared
+* remove every other photo
+
+Actions:
+
+* Downloading it all
 
 ---
 
