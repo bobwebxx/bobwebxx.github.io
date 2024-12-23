@@ -30,6 +30,21 @@ plugins:
 
 Obviously a bunch of this is optional but this is still very light.
 
+Final bare minimum tree:
+
+```
+├── _config.yml
+├── _layouts
+│   └── default.html
+└── _posts
+    └── 2024-12-23-blah.md
+
+```
+
+Can add `404.html` in root if care. But this seems to be the absolute least required by github-pages.
+
+If you want to actually see your posts in some sort of nav you have to modify `defaults.html` per below.
+
 ---
 
 Writing some quick posts. Choosing to upgrade to github-pages themes. They are maintained here: https://github.com/pages-themes/
@@ -73,7 +88,7 @@ https://jekyllrb.com/docs/posts/
 
 **Front Matter**
 
-Bare minimum, there's a bunch of built-in stuff, but this is the bare minimum to render:
+There's a bunch of built-in variables that can be used, but this is the bare minimum to render:
 ```
 ---
 layout: default
@@ -83,9 +98,11 @@ title:  "Bare Minimum to install Jekyll Github Pages"
 
 https://jekyllrb.com/docs/front-matter/
 
-#### Naviation
+ngl, I don't love ruby: https://github.com/jekyll/jekyll/blob/master/lib/jekyll/frontmatter_defaults.rb
 
-To list posts the following can then be added to a template, per the above eg: `_layouts/default.html`:
+#### Navigation
+
+To list posts the following can then be added to a template `_layouts/default.html`:
 
 ```
 <ul>
