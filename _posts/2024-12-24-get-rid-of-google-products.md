@@ -1,3 +1,9 @@
+---
+layout: default
+title:  "Project: Get rid of Google"
+tags: project-google
+---
+
 # Project: Get rid of Google
 
 Create date: 2024-12-23
