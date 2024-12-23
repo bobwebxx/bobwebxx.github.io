@@ -1,9 +1,16 @@
-# Bare Minimum for Jekyll Github Pages
+---
+layout: default
+title:  "Bare Minimum to install Jekyll Github Pages"
+tags: meta
+---
+
+# Absolute Bare Minimum to install Jekyll Github Pages
+
+Least amount of code required to start install Jekyll Github Pages.
 
 All you need to do is add `_config.yaml` and it will build.
 
 I added the following at it rendered:
-
 `_config.yaml`
 
 ```
@@ -29,11 +36,17 @@ Writing some quick posts. Choosing to upgrade to github-pages themes. They are m
 
 I choose minimal: https://pages-themes.github.io/minimal/
 
-Syntax must be: `jekyll-theme-minimal`
+Syntax can just be: 
+
+```
+theme: jekyll-theme-minimal
+```
+
+This just worked.
+
+But per the above is more fancy. Feels more pro-bro, probably just aliases and no differences of substance though.
 
 ---
 
-next: 
 
-* navigations
-* is this `_posts` directory even doing anything? let's see
+
