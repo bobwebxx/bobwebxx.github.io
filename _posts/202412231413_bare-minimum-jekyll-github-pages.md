@@ -14,10 +14,11 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://bobwebxx.github.io"
 github_username:  bobwebxx
-theme: jekyll-theme-minimal
+remote_theme: pages-themes/minimal@v0.2.0
 markdown: kramdown
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 ```
 
 Obviously a bunch of this is optional but this is still very light.
