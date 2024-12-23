@@ -2,6 +2,8 @@
 
 https://bobwebxx.github.io/
 
-First rule: no unnecessary complication.
+The purpose? Things that can be public and maybe helpful. Who am I? Just zis guy obviously.
 
-Post using markdown here for as long as practical.
+--
+
+credit theme: https://github.com/pages-themes/minimal/graphs/contributors
