@@ -1,0 +1,38 @@
+# Bare Minimum for Jekyll Github Pages
+
+All you need to do is add `_config.yaml` and it will build.
+
+I added the following at it rendered:
+
+`_config.yaml`
+
+```
+title: Bob's blog
+email: bobwebxx@gmail.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Bob's blog
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://bobwebxx.github.io"
+github_username:  bobwebxx
+theme: jekyll-theme-minimal
+markdown: kramdown
+plugins:
+  - jekyll-feed
+```
+
+Obviously a bunch of this is optional but this is still very light.
+
+---
+
+Writing some quick posts. Choosing to upgrade to github-pages themes. They are maintained here: https://github.com/pages-themes/
+
+I choose minimal: https://pages-themes.github.io/minimal/
+
+Syntax must be: `jekyll-theme-minimal`
+
+---
+
+next: 
+
+* navigations
+* is this `_posts` directory even doing anything? let's see
